@@ -1,0 +1,51 @@
+{
+  "manifestVersion": 1,
+  "id": "writeAllVariables",
+  "version": "1.0.0",
+  "name": "Write all variables",
+  "description": "Writes all variable keys and values (including secrets) to a file.",
+  "publisher": "RedTaz",
+  "icons": {
+    "default": "static/images/icon.png"
+  },
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "tags": [
+    "Azure Pipelines"
+  ],
+  "categories": [
+    "Azure Pipelines"
+  ],
+  "content": {
+    "license": {
+      "path": "LICENSE"
+    },
+    "details": {
+      "path": "README.md"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "uri": "https://github.com/RedTaz/azure-devops-write-all-variables"
+  },
+  "files": [
+    {
+      "path": "writeAllVariables"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "writeAllVariables",
+      "targets": [
+        "ms.vss-distributed-task.tasks"
+      ],
+      "type": "ms.vss-distributed-task.task",
+      "properties": {
+        "name": "writeAllVariables"
+      }
+    }
+  ]
+}

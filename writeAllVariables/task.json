@@ -1,0 +1,29 @@
+{
+   "id": "1f1d8f0b-8781-4ac4-aed1-0d51ed3bf95f",
+   "name": "writeAllVariables",
+   "friendlyName": "Write all variables",
+   "description": "Writes all variable keys and values (including secrets) to a file.",
+   "helpMarkDown": "[More Information](https://github.com/RedTaz/azure-devops-write-all-variables)",
+   "category": "Utility",
+   "visibility": ["Build","Release"],
+   "author": "RedTaz",
+   "version": {
+      "Major": 1,
+      "Minor": 0,
+      "Patch": 0
+   },
+   "instanceNameFormat": "Write all variables",
+   "inputs": [
+      {
+          "name": "filepath",
+          "type": "filePath",
+          "label": "File Path",
+          "defaultValue": "",
+          "required": true,
+          "helpMarkDown": "The file to write the variables to."
+      }
+  ],
+   "execution":
+    {"Node":{"target":"writeAllVariables.js"}}
+   
+}
