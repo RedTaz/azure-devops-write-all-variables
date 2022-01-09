@@ -1,5 +1,5 @@
 {
-   "id": "1f1d8f0b-8781-4ac4-aed1-0d51ed3bf95f",
+   "id": "b2e0a66a-1021-4eea-b6df-0e5340fb555b",
    "name": "writeAllVariables",
    "friendlyName": "Write all variables",
    "description": "Writes all variable keys and values (including secrets) to a file.",
